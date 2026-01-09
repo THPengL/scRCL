@@ -19,3 +19,4 @@ hid_dim: 1500
 out_dim: 14
 train: True
 save_res: False
+save_path: "./results/SC"

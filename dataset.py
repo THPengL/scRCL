@@ -68,20 +68,13 @@ def load_ST_data(dataPath, dataset, hvg=3000, n_neighbors=15, ts=None):
         adata = scanpy.read_visium(file_fold, count_file='filtered_feature_bc_matrix.h5')
     elif dataset == "Mouse_Embryo_E9.5":
         file_fold = f'{dataPath}/{dataset}/'
-        # adata = scanpy.read_h5ad(file_fold + 'E9.5_E1S1.MOSTA.h5ad')
         adata = scanpy.read_h5ad(file_fold + "E9.5_E1S1.MOSTA.h5ad")
-    elif dataset == "STARmap_mouse_visual_cortex":
-        file_fold = f'{dataPath}/{dataset}/'
-        adata = scanpy.read_h5ad(file_fold + 'STARmap_20180505_BY3_1k.h5ad')
     elif dataset == "Mouse_Brain_Anterior":
         file_fold = f"{dataPath}/{dataset}/"
         adata = scanpy.read_visium(file_fold, count_file='filtered_feature_bc_matrix.h5')
     elif dataset == "Human_Breast_Cancer":
         file_fold = f"{dataPath}/{dataset}/"
         adata = scanpy.read_visium(file_fold, count_file='filtered_feature_bc_matrix.h5')
-    elif dataset == "Mouse_Olfactory":
-        file_fold = f"{dataPath}/{dataset}/"
-        adata = scanpy.read(file_fold + 'filtered_feature_bc_matrix.h5ad')
     else:
         raise Exception('Undefined dataset')
     adata.var_names_make_unique()
