@@ -64,7 +64,7 @@ python runSC.py --dataset Quake_Smart-seq2_Diaphragm
 Regarding spatial transcriptomics domain identification task, you can run the following script:
 
 ```
-python runST.py --dataset 151673
+python runST.py --dataset 151507
 ```
 
 ##### DEGs
