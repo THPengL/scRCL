@@ -18,7 +18,9 @@ radius: 50
 in_dim: 3000
 hid_dim: 1500
 out_dim: 0
-train: False
+train: True
 showimg: False
 showpaga: False
 save_res: False
+save_path: "./results/ST"
+fig_path: "./figures/ST"

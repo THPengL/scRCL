@@ -73,6 +73,8 @@ if __name__ == '__main__':
     else:
         raise NotImplementedError(f"The config file '{config_file_name}' is not implemented.")
 
+    if config['dataset'] == "":
+        config['dataset'] = args.dataset
     config['train'] = True          # True: 5 seeds, False: 1 seed
     config['showimg'] = False
     config['showpaga'] = False      # for DLPFC
