@@ -34,13 +34,13 @@ Unsupervised cell type identification is crucial for uncovering and characterizi
 
 ##### SC
 
-For scRNA-seq datasets, we provide the compressed file `./datasets/scdata/scdata.zip` containing `li_tumor` (Tumor), `Human_ESC`, and `Zeisel` datasets. The datasets `Quake_Smart-seq2_Diaphragm` (Diaphragm), `Quake_Smart-seq2_Lung` (Lung), `Quake_Smart-seq2_Trachea` (Trachea), `Quake_10x_Bladder` (Bladder), `Quake_10x_Limb_Muscle` (Limb_Muscle), `Quake_10x_Spleen` (Spleen), and `Baron_human` can be downloaded from [here](https://cblast.gao-lab.org/download). 
+For scRNA-seq datasets, `Quake_Smart-seq2_Diaphragm` (Diaphragm), `Quake_Smart-seq2_Lung` (Lung), `Quake_Smart-seq2_Trachea` (Trachea), `Quake_10x_Bladder` (Bladder), `Quake_10x_Limb_Muscle` (Limb_Muscle), `Quake_10x_Spleen` (Spleen), and `Baron_human` can be downloaded [here](https://cblast.gao-lab.org/download). While `li_tumor` (Tumor), `Human_ESC`, and `Zeisel` datasets can be found [here](https://hemberg-lab.github.io/scRNA.seq.datasets/). 
 
 Before running the `runSC.py` script, please place the downloaded dataset files in the `./datasets/scdata/` directory, e.g., `./datasets/scdata/Quake_Smart-seq2_Diaphragm.h5ad`. 
 
 ##### ST
 
-With respect to spatial transcriptomics datasets, please refer to the [GraphST](https://www.nature.com/articles/s41467-023-36796-3) paper to download the `DLPFC`, `Human_Breast_Cancer`, and `Mouse_Brain_Anterior` datasets. The `Mouse_Embryo_E9.5` dataset can be downloaded form [here](https://db.cngb.org/stomics/mosta/). 
+With respect to spatial transcriptomics datasets, please refer to the [GraphST](https://www.nature.com/articles/s41467-023-36796-3) paper to download the `DLPFC`, `Human_Breast_Cancer`, and `Mouse_Brain_Anterior` datasets. The `Mouse_Embryo_E9.5` dataset can be downloaded [here](https://db.cngb.org/stomics/mosta/). 
 
 Before running the `runST.py` script, place the dataset files in the `./datasets/stdata/` directory. For example:
 
