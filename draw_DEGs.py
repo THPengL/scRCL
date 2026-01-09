@@ -71,17 +71,6 @@ for seed in seeds:
                             n_genes=20,
                             sharey=False,
                             key="rank_genes_groups_filtered")
-    # plt.rcParams.update({
-    #     'font.size': FONTSIZE,
-    #     'axes.titlesize': TITLESIZE,
-    #     'axes.labelsize': LABELSIZE,
-    #     'xtick.labelsize': TICKLABELSIZE,
-    #     'ytick.labelsize': TICKLABELSIZE,
-    #     'legend.fontsize': LEGENDFONTSIZE
-    # })
-    # plt.tight_layout()
-    # myranks.savefig(f"{fig_root}/{dataset}_rank_genes_groups_{seed}.png", dpi=300, bbox_inches='tight')
-    # plt.close()
 
     plt.figure(figsize=(20, 20), dpi=300)
     mydotplot = sc.pl.rank_genes_groups_dotplot(adata,
@@ -122,14 +111,6 @@ for seed in seeds:
     plt.tight_layout()
     plt.savefig(f"{fig_root}/{dataset}_heatmap_{seed}.png", dpi=300, bbox_inches='tight')
     plt.close()
-
-    # mydotplot = sc.pl.rank_genes_groups_dotplot(adata,
-    #                                             n_genes=n_genes,
-    #                                             key="wilcoxon",
-    #                                             groupby="kmeans",
-    #                                             dendrogram=True,
-    #                                             return_fig=True)
-    # mydotplot.savefig(f"{fig_root}/{dataset}_dotplot_{seed}.png", dpi=300, bbox_inches='tight')
 
     plt.figure(figsize=(20, 20), dpi=300)
     myviolin = sc.pl.rank_genes_groups_stacked_violin(adata, n_genes=n_genes,
