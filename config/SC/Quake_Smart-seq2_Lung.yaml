@@ -1,0 +1,21 @@
+
+dataset: "Quake_Smart-seq2_Lung"
+task: "SC"
+n_samples: 1676
+n_classes: 11
+seed: 5
+lr: 0.0005
+epochs: 500
+tms: [5, 0]
+dropout: 0.1
+weight_decay: 0.001
+hvg: 1000
+lambda1: 100.0
+lambda2: 100.0
+k: 15
+t: 1.0
+in_dim: 3000
+hid_dim: 1500
+out_dim: 11
+train: True
+save_res: False

@@ -1,0 +1,21 @@
+
+dataset: "Quake_Smart-seq2_Diaphragm"
+task: "SC"
+n_samples: 870
+n_classes: 5
+seed: 5
+lr: 0.0005
+epochs: 500
+tms: [0, 0]
+dropout: 0.1
+weight_decay: 0.001
+hvg: 1500
+lambda1: 100.0
+lambda2: 0.01
+k: 15
+t: 1.0
+in_dim: 3000
+hid_dim: 1500
+out_dim: 5
+train: True
+save_res: False

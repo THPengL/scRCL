@@ -1,0 +1,24 @@
+
+dataset: "Mouse_Embryo_E9.5"
+task: "ST"
+n_samples: 5913
+n_classes: 12
+seed: 15
+lr: 0.0001
+epochs: 500
+tms: [5, 1]
+dropout: 0.3
+weight_decay: 0.1
+hvg: 1000
+lambda1: 200.0
+lambda2: 0.1
+k: 3
+t: 0.1
+radius: 50
+in_dim: 3000
+hid_dim: 1500
+out_dim: 100        # n_classes 100
+train: False
+showimg: False
+showpaga: False
+save_res: False

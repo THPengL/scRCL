@@ -1,0 +1,24 @@
+
+dataset: "151510"
+task: "ST"
+n_samples: 4595
+n_classes: 7
+seed: 5
+lr: 0.0001
+epochs: 500
+tms: [10, 8]
+dropout: 0.3
+weight_decay: 0.1
+hvg: 3000
+lambda1: 200.0
+lambda2: 0.5
+k: 15
+t: 0.1
+radius: 50
+in_dim: 3000
+hid_dim: 1500
+out_dim: 7
+train: False
+showimg: False
+showpaga: False
+save_res: False

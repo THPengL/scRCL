@@ -1,0 +1,21 @@
+
+dataset: "Baron_human"
+task: "SC"
+n_samples: 8569
+n_classes: 14
+seed: 5
+lr: 0.00005
+epochs: 500
+tms: [5, 0]
+dropout: 0.3
+weight_decay: 0.1
+hvg: 2000
+lambda1: 0.01
+lambda2: 0.1
+k: 15
+t: 0.1
+in_dim: 3000
+hid_dim: 1500
+out_dim: 14
+train: True
+save_res: False

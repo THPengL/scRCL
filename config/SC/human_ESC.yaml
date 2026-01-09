@@ -1,0 +1,21 @@
+
+dataset: "human_ESC"
+task: "SC"
+n_samples: 1018
+n_classes: 7
+seed: 5
+lr: 0.00001
+epochs: 500
+tms: [4, 2]
+dropout: 0.3
+weight_decay: 0.01
+hvg: 1000
+lambda1: 10.0
+lambda2: 100.0
+k: 15
+t: 0.1
+in_dim: 3000
+hid_dim: 1500
+out_dim: 7
+train: True
+save_res: False

@@ -1,0 +1,21 @@
+
+dataset: ""
+task: "SC"
+n_samples: 3000
+n_classes: 10
+seed: 5
+lr: 0.0001
+epochs: 500
+tms: [0, 0]
+dropout: 0.3
+weight_decay: 0.1
+hvg: 2000
+lambda1: 100.0
+lambda2: 1.0
+k: 15
+t: 0.1
+in_dim: 3000
+hid_dim: 1500
+out_dim: 0
+train: True
+save_res: False

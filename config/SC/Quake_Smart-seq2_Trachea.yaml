@@ -1,0 +1,21 @@
+
+dataset: "Quake_Smart-seq2_Trachea"
+task: "SC"
+n_samples: 2122
+n_classes: 9
+seed: 5
+lr: 0.005
+epochs: 500
+tms: [0, 0]
+dropout: 0.1
+weight_decay: 0.001
+hvg: 500
+lambda1: 10.0
+lambda2: 0.01
+k: 15
+t: 1.0
+in_dim: 3000
+hid_dim: 1500
+out_dim: 9
+train: True
+save_res: False

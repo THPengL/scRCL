@@ -1,0 +1,21 @@
+
+dataset: "Zeisel"
+task: "SC"
+n_samples: 3005
+n_classes: 9
+seed: 5
+lr: 0.00005
+epochs: 500
+tms: [4, 2]
+dropout: 0.3
+weight_decay: 0.1
+hvg: 1500
+lambda1: 100.0
+lambda2: 0.01
+k: 15
+t: 0.1
+in_dim: 3000
+hid_dim: 1500
+out_dim: 9
+train: True
+save_res: False
